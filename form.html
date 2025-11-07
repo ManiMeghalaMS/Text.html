@@ -1,48 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="form.css"> 
 </head>
 <body>
-    <H3>Example for HTML Form Tag</H3>
-    <form>
 
-        <label for="">UserName:</label>
-        <input type="text"><br><br>
-        <label for="">Password:</label>
-        <input type="password"><br><br>
-        <label for="">Email</label>
-        <input type="emai"><br><br>
-        <label for="">contact us:</label>
-        <input type="number"><br><br>
-        <label for="">Country:</label>
-             <input type="radio">
-             <label for="">India</label>
-             <input type="radio">
-             <label for="">UK</label>
-             <input type="radio">
-             <label for="">USA</label> <br><br>
+  <form>
+    <h3>Student Registration Form</h3>
 
+    <label>Name:</label>
+    <input type="text"><br><br>
 
+    <label>Father Name:</label>
+    <input type="text"><br><br>
 
-        <label for="">Gender:</label>
-        <select name="" id="">
-            <option value="default">select</option>
-             <option value="">male"</option>
-             <option value="">female"</option>
-            <option value ="">others</option>
-             </select><br><br>
-             <input type ="checkbox" id="agree">
-             <label for="agree">i agree to this terms  and conditions</label><br><br>
+    <label>Postal Address:</label>
+    <input type="text"><br><br>
 
+    <label>Personal Address:</label>
+    <input type="text"><br><br>
 
+    <label>Sex:</label>
+    <input type="radio" name="sex" value="male"> Male
+    <input type="radio" name="sex" value="female"> Female
+    <br><br>
 
+    <label>City:</label>
+    <select>
+      <option>select..</option>
+      <option>Bengaluru</option>
+      <option>Chennai</option>
+      <option>Mumbai</option>
+      <option>Delhi</option>
+    </select><br><br>
 
+    <label>Course:</label>
+    <select>
+      <option>select..</option>
+      <option>B.Sc</option>
+      <option>BCA</option>
+      <option>B.Com</option>
+      <option>B.Tech</option>
+    </select><br><br>
 
- <button type="submit">submit your form </button>
+    <label>District:</label>
+    <select>
+      <option>select..</option>
+      <option>Chennai</option>
+      <option>Bangalore</option>
+      <option>Mumbai</option>
+    </select><br><br>
 
-</form>
+    <label>State:</label>
+    <select>
+      <option>select..</option>
+      <option>Tamil Nadu</option>
+      <option>Karnataka</option>
+      <option>Maharashtra</option>
+    </select><br><br>
+
+    <label>PinCode:</label>
+    <input type="number"><br><br>
+
+    <label>EmailId:</label>
+    <input type="email"><br><br>
+
+    <label>DOB:</label>
+    <input type="date"><br><br>
+
+    <label>MobileNo:</label>
+    <input type="number"><br><br>
+
+    <div class="buttons">
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit Form">
+    </div>
+
+  </form>
+
 </body>
 </html>
