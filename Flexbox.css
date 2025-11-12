@@ -1,0 +1,37 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 200px;
+    background: rgb(214, 87, 8);
+    border-radius: 30px;
+}
+
+
+.box{
+    background-color: aqua;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border:3px dashed blue;
+}
+
+.box1{
+     background-color: aqua;
+     color: white;
+     padding: 20px;
+      border-radius: 20px;
+    border:3px dashed blue;
+}
+
+
+.box2{
+     background-color: aqua;
+     color: white;
+     padding: 20px;
+      border-radius: 20px;
+    border:3px dashed blue;
+}
+

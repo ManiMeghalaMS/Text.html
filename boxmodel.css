@@ -1,0 +1,23 @@
+div {
+  background-color: black;      
+  color: aquamarine;            
+  margin-top: 50px;             
+  margin-left: 70px;            
+  margin-right: 100px;          
+  margin-bottom: 200px;         
+}
+
+
+/* Padding 
+padding-left: 30px;
+padding-right: 10px;
+padding-bottom: 40px;
+padding-top: 30px;
+*/
+
+/* Border 
+border-top: 2px dashed pink;
+border-right: 4px dotted blue;
+border-left: 4px groove purple;
+border-bottom: 5px solid blue;
+*/
