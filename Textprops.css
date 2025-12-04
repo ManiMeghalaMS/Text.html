@@ -1,0 +1,34 @@
+.heading{
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: darkblue;
+}
+
+
+.para1{
+    color:darkorchid;
+    text-align: center;
+    font-size:larger;
+    ;
+}
+
+.para2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+.para3{
+    text-align: center;
+    text-decoration: line-through;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: darkslategrey;
+    list-style-type: none;
+}

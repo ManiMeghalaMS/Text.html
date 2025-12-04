@@ -19,7 +19,7 @@ h1 {
   gap: 40px;
   margin: 40px 0;
   filter: grayscale();
-  border: radius 15px;;
+  
 }
 
 .card {

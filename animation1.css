@@ -1,0 +1,56 @@
+body{
+   margin:0;
+   background-color: aqua;
+}
+
+div{
+    width:200px;
+    height:200px;
+    background-color: brown;
+    margin:10px;
+    animation: expand 3s ease-in-out 2s infinite; 
+    transition: background-color 1s ease-in-out; 
+    color: aliceblue;
+   font-size: 50px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+    
+}
+
+div:hover{
+      animation-play-state: paused; 
+     background-color: blue;
+     /* transform: rotate(45deg); */
+     transform: translate(50%,50px);
+}
+
+/* 
+@keyframes expand{
+    from{
+        width:300px;
+    }
+    to{
+        width:600px;
+    }
+} */
+ 
+@keyframes expand{
+   0%{
+        width:200px;
+         height:300px; 
+        background-color: darkorange;
+    }
+    50%{
+        width:600px;
+         height:600px; 
+        background-color: blueviolet;
+    }
+    100%{
+        width:800px;
+         height:300px; 
+        background-color: chartreuse;
+    }
+} 
+
+

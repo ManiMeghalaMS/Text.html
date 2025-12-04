@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fbe9d0;
+  font-family: "Poppins", sans-serif;
+  color: #3b2f2f;
+  background-image: radial-gradient( #ffeaf7, #fbe9d0);
+}
+
+
+div {
+  max-width: 650px;
+  margin: 60px auto;
+  background: #fffdf9;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  padding: 40px 50px;
+  border: 4px double #d8a47f;
+  position: relative;
+}
+
+
+h1 {
+  text-align: center;
+  color: #b33f24;
+  font-size: 52px;
+  font-family: "Georgia", serif;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+
+hr {
+  width: 70%;
+  border: none;
+  border-top: 2px solid #d88b6d;
+  margin: 15px auto 25px;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 26px;
+  color: #4a708b;
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+
+h3, h4, h5 {
+  color: #8b2e5d;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #f1b8c4;
+  display: inline-block;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+}
+
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 0 25px;
+}
+
+li {
+  font-size: 18px;
+  padding: 10px 0;
+  border-bottom: 1px dotted #e1c2b5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+li::after {
+  content: "$4.99";
+  font-size: 16px;
+  color: #8b5e3c;
+  font-weight: 500;
+}
+
+
+li:hover {
+  color: #b33f24;
+  transform: translateX(6px);
+}
+
+
+h5 {
+  color: #5c3d77;
+  font-size: 18px;
+  border-bottom: 2px solid #c9b6db;
+}

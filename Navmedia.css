@@ -1,0 +1,33 @@
+/* mobile first */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: brown;
+    padding: 15px;
+}
+
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+    .menu {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+/* Desktop */
+@media (min-width: 900px) {
+   .menu a {
+        font-size: 20px;
+        color:rgb(239, 241, 241);
+        background-color:brown(208, 21, 96);
+      }
+}
